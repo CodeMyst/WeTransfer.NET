@@ -1,6 +1,7 @@
 language: csharp
 solution: WeTransfer.NET.sln
 dotnet: 2.1.502
+mono: none
 script:
   - dotnet build
   - dotnet test
