@@ -40,6 +40,8 @@ FileUploadResult result = await wt.FinalizeUpload (response.ID, response.Files);
 // FileUploadResult contains the url to the download page and the date of the expiry
 ```
 
+**Note**: Sending multiple files doesn't work as of 1.0. If you need this feature please keep and eye here: [#2](https://github.com/CodeMyst/WeTransfer.NET/issues/2)
+
 ## Building
 
 If you want to build this from source all you need is .Net SDK and run the `dotnet build` command.
