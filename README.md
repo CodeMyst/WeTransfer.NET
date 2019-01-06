@@ -1,8 +1,10 @@
-# WeTransfer.NET [![Build Status](https://travis-ci.com/CodeMyst/WeTransfer.NET.svg?branch=master)](https://travis-ci.com/CodeMyst/WeTransfer.NET)
+# WeTransfer.NET [![Build Status](https://travis-ci.com/CodeMyst/WeTransfer.NET.svg?branch=master)](https://travis-ci.com/CodeMyst/WeTransfer.NET) [![Nuget Package](https://img.shields.io/nuget/v/WeTransfer.NET.svg)](https://www.nuget.org/packages/WeTransfer.NET/)
 
 A .NET Standard library that is a very basic wrapper over the [WeTransfer](https://developers.wetransfer.com/) API. This library only implements the Transfer API, there are no plans yet for implementing the Boards API.
 
 ## Usage
+
+The easiest way to get started is to download the nuget package from here: [https://www.nuget.org/packages/WeTransfer.NET/](https://www.nuget.org/packages/WeTransfer.NET/)
 
 It's very simple to start uploading files. First you need to get your WeTransfer API from [here](https://developers.wetransfer.com/). Here is a small sample program that will upload an image:
 
