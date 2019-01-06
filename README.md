@@ -1,4 +1,4 @@
-# WeTransfer.NET
+# WeTransfer.NET [![Build Status](https://travis-ci.com/CodeMyst/WeTransfer.NET.svg?branch=master)](https://travis-ci.com/CodeMyst/WeTransfer.NET)
 
 A .NET Standard library that is a very basic wrapper over the [WeTransfer](https://developers.wetransfer.com/) API. This library only implements the Transfer API, there are no plans yet for implementing the Boards API.
 
