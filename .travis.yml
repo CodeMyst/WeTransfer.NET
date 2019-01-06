@@ -1,0 +1,5 @@
+language: csharp
+solution: WeTransfer.NET.sln
+script:
+  - dotnet build
+  - dotnet test
